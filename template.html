@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jornada Scrum</title>
-    <link rel="stylesheet" href="/template.css">
+    <link rel="stylesheet" href="./template.css">
 </head>
 <body>
     <header>
-        <h2 class="logo"><img class="logo" src="/d8branco 1.png" alt="Logo da Jornada Scrum"></h2>
+        <h2 class="logo"><img class="logo" src="./d8branco 1.png" alt="Logo da Jornada Scrum"></h2>
         <nav class="navigation">
             <a href="#">Início</a>
             <a href="#">Sua Jornada</a>
-            <button class="btnlogin-popup">Login</button>
+            <button id="btnLogin" class="btnlogin-popup">Login</button>
         </nav>
     </header>
     <div class="container">
@@ -21,13 +21,13 @@
             <div>
                 <h2>Trilha de conhecimento</h2>
                 <ul>
-                    <li style="font-family: Inria-serif;">1ª Trilha<br>Desbravando o Scrum</li>
-                    <li style="font-family: Inria-serif;">2ª Trilha<br>Diferencias</li>
-                    <li style="font-family: Inria-serif;">3ª Trilha<br>Scrum na prática</li>
-                    <li style="font-family: Inria-serif;">4ª Trilha<br>Missões</li>
-                    <li style="font-family: Inria-serif;">5ª Trilha<br>Classes</li>
-                    <li style="font-family: Inria-serif;">6ª Trilha<br>Os 4 chefões</li>
-                    <li style="font-family: Inria-serif;">Glossário</li>
+                    <li><a href="#">1ª Trilha<br><p>Desbravando o Scrum</p></a></li>
+                    <li><a href="#">2ª Trilha<br><p>Diferencias</p></a></li>
+                    <li><a href="#">3ª Trilha<br><p>Scrum na prática</p></a></li>
+                    <li><a href="#">4ª Trilha<br><p>Missões</p></a></li>
+                    <li><a href="#">5ª Trilha<br><p>Classes</p></a></li>
+                    <li><a href="#">6ª Trilha<br><p>Os chefões do Scrum</p></a>
+                    </li><li><a href="#">Glossário</a></li>
                 </ul>
             </div>
             <div class="progress-bar">
@@ -39,22 +39,16 @@
         <main class="content">
             <div>
                 <h2>1ª Trilha: Desbravando o Scrum!</h2>
-                <p style="font-family: Inria-serif;">A metodologia Scrum deriva do manifesto ágil, um movimento de modernização do processo de desenvolvimento de software, entretanto, não se mantém dentro dessas limitações. 
-
+                <p>A metodologia Scrum deriva do manifesto ágil, um movimento de modernização do processo de desenvolvimento de software, entretanto, não se mantém dentro dessas limitações. 
                     O método foi idealizado por Ken Schwaber e Jeff Sutherland no ano de 1993, quando trabalhavam na Easel Corporation. Ele foi originalmente criado para o gerenciamento e planejamento de projetos de criação de sistemas, mas, hoje é usado por equipes que possuem diferentes objetivos.
-                    
                     Refere-se a uma estrutura de processos padronizados, com uma série de agentes e atividades próprias, simples e prática para ser usada em gerenciamento de projetos complexos.
-                    
                     Com base no empirismo – conjunto de saberes adquiridos através da experiência e da prática – a metodologia Scrum reconhece a experiência como guia seguro.
-                    
-                    Quer dizer, as decisões se iniciam daquilo que já foi vivido e as ideias surgem por intermédio de observações e experimentos. Tudo que é criado é testado com a ajuda de um usuário final.</p><br>
-                <p style="font-family: Inria-serif;">Somente após se certificar de que a funcionalidade ou inovação realmente atende às necessidades dos clientes, é que seguimos para o próximo passo.
-
+                    Quer dizer, as decisões se iniciam daquilo que já foi vivido e as ideias surgem por intermédio de observações e experimentos. Tudo que é criado é testado com a ajuda de um usuário final.</p>
+                <img href="./d8branco 1.png" width="50px" height="50px">    
+                <p>Somente após se certificar de que a funcionalidade ou inovação realmente atende às necessidades dos clientes, é que seguimos para o próximo passo.
                     Desse modo, aos poucos esses ganhos incrementais consistentes se acumulam e se tornam a solução ideal que o cliente deseja, resultando em um produto perfeito.
-                    
-                    Atualmente o Scrum foi além dos limites das equipes de desenvolvimento de software, sua metodologia já é usada em diversas áreas e em todos os tipos de empresa.
-                    
-                    Entretanto, o desenvolvimento de produtos, em geral, é um dos campos mais beneficiados pelo uso das ferramentas do Scrum.</p><br>
+                    Atualmente o Scrum foi além dos limites das equipes de desenvolvimento de software, sua metodologia já é usada em diversas áreas e em todos os tipos de empresa.                  
+                    Entretanto, o desenvolvimento de produtos, em geral, é um dos campos mais beneficiados pelo uso das ferramentas do Scrum.</p>
             </div>
 
             <!-- Paginação -->
@@ -67,5 +61,6 @@
             </div>
         </main>
     </div>
+    <script src="template.js"></script>
 </body>
 </html>
