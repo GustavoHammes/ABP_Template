@@ -151,12 +151,13 @@ li > a:hover{
 
 .content p{
     font-family: Inria-serif;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .content img{
-    background-color: #6a0dad;
+    width: 500px;
+    height: auto;
     border: 2px solid #4F378B;
     margin: auto;
     display: block;
