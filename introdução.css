@@ -156,9 +156,9 @@ li > a:hover{
 }
 
 .content img{
-    width: 500px;
+    width: 600px;
     height: auto;
-    border: 2px solid #4F378B;
+    /*border: 2px solid #4F378B;*/
     margin: auto;
     display: block;
 }
@@ -207,12 +207,20 @@ li > a:hover{
 
 }
 
+@media only screen and (min-width:780px) and (max-width:1920px){
+    
+}
+
 @media only screen and (min-width: 1920px){
+    header{
+        height: 85px;
+    }
+    
     .content{
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
     .container{
-        height: 91.36vh;
+        height: 93.1vh;
     }
 }
 
